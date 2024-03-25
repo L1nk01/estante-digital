@@ -1,0 +1,12 @@
+#footer {
+  background-color: rgb(32, 62, 138);
+  height: 200px;
+}
+
+.social-icon {
+  color: white;
+}
+
+.social-icon:hover {
+  color: rgb(211, 211, 211);
+}

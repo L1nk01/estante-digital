@@ -1,0 +1,33 @@
+#card-component {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border-radius: 15px;
+  margin: 15px;
+  transition: transform 0.3s ease, border-bottom 1s ease;
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  h3 {
+    padding-left: 6px;
+    margin: 17px 0px 5px;
+    font-size: 1.1rem;
+    font-family: "Hedvig Letters Serif", serif;
+    color: var(--text-header);
+  }
+
+  p {
+    padding-left: 6px;
+    margin: 0px 0px 10px 0px;
+    font-size: 0.9rem;
+    font-family: 'Ubuntu', sans-serif;
+  }
+}
+
+#card-component:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}

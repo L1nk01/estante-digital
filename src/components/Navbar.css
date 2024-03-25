@@ -1,0 +1,82 @@
+.navbar {
+  height: 80px;
+  background-color: rgb(32, 62, 138);
+}
+
+.container-fluid {
+  align-content: space-around;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title, .searchbar, .buttons {
+  flex-grow: 1;
+}
+
+.searchbar {
+  input {
+    width: 600px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    background-image: url("./searchbar-icon.png");
+    background-position: 5px;
+    background-repeat: no-repeat;
+    padding: 0px 35px 0px 35px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: background-color 0.3s ease, outline 0.075s ease;
+  }
+
+  input:focus {
+    outline: solid 2px rgb(122, 117, 228);
+  }
+
+  button {
+    margin-left: 12px;
+    width: 100px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: rgb(210, 209, 248);
+    color: black;
+  }
+}
+
+.navbar-brand {
+  font-family: "Playfair Display SC", serif;
+  font-size: 2.1rem;
+  margin-left: 13px;
+  color: white;
+  font-weight: 700;
+}
+
+.navbar-brand:hover {
+  color: white !important;
+}
+
+.navbar-nav {
+  width: 100px !important;
+  justify-content: end !important;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.nav-link {
+  color: white;
+  transition: color 0.1s ease;
+}
+
+.nav-link:hover {
+  color: rgb(210, 209, 248) !important;
+}

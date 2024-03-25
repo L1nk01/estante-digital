@@ -1,0 +1,10 @@
+.modal-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.modal-image {
+  width: 80%;
+}
